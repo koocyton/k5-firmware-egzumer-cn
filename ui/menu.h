@@ -25,9 +25,9 @@
 
 typedef struct {
 	const char  name[7];    // menu display area only has room for 6 characters
+	const char  cn_name[7];
 	VOICE_ID_t  voice_id;
 	uint8_t     menu_id;
-	const char  cnname[7];    // chinese name
 } t_menu_item;
 
 enum
